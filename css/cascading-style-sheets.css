@@ -1,25 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html , body {
+    height: 100vh;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 50px;
+}
 
 .centratura{
     margin: 1px black;
     width: 1390px;
     height: auto;
-    position: relative;
-    margin-left: 15px;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-main , footer , {
-    padding: 10px;
     position: absolute;
-}
-
-h1{
-    font-size: 50px;
+    margin-left: 15px;
+    margin-top: 85px;
 }
 
 .banner{
@@ -28,17 +35,12 @@ h1{
     margin-bottom: 10px;
     background-image: url(../img/pattern.png);
     background-color: cornflowerblue;
-/*     background-origin: content-box; */
     position: relative;  
 }
 
 #logo{
-    bottom: 0px;
-    left: 0px;
-    height: 50%;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    position: absolute;  
+    height: 80px;
+    margin-bottom: 30px;
 }
 
 .title{
@@ -47,7 +49,7 @@ h1{
 }
 
 .data{
-    font-size: x-small;
+    font-size: smaller;
 }
 
 #pic1 , #pic2 {
@@ -105,4 +107,8 @@ b{
     margin-left: 15px;
     margin-top: 20px;
     position: absolute;
+}
+
+p , li , th , td {
+    font-size: x-large;
 }
