@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main , footer {
+    padding: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+
+
+
+.banner{
+    width: 100%;
+    height: 170px;
+    margin-bottom: 10px;
+    background-image: url(../img/pattern.png);
+    background-color: cornflowerblue;
+    background-origin: content-box;
+    position: relative;
+}
+
+#logo{
+    bottom: 0px;
+    left: 0px;
+    height: 50%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    position: absolute;  
+}
+
+
+.title{
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.data{
+    font-size: x-small;
+}
+
+#pic1 , #pic2 {
+    width: auto;
+    height: 500px;
+}
+
+#list{
+    margin-left: 20px;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+th{
+    border: 1px solid #dddddd;
+    background-color:#0d62c4;
+    padding: 1px;
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #93e0e5 ;
+}
+
+
+
+
+
+
+
+
+#box1 , #box2 {
+    width: 300px;
+    height: 200px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#box1{
+    background-image: url(../img/monitor.jpg);
+}
+
+#box2{
+    background-image: url(../img/graph.jpg);
+}
+
+b{
+    color: white;
+    font-size: large;
+    margin-left: 15px;
+    margin-top: 20px;
+    position: absolute;
+}
