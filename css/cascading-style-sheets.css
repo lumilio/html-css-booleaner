@@ -1,16 +1,45 @@
+
+.centratura{
+    margin: 1px black;
+    width: 1024px;
+    height: auto;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+/* ‚ */
 }
 
-main , footer {
+main , footer , {
     padding: 10px;
+    position: absolute;
+
 }
 
 h1{
     font-size: 50px;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -44,9 +73,18 @@ h1{
     font-size: x-small;
 }
 
+
+
+
+
+
+
+
+
+
 #pic1 , #pic2 {
     width: auto;
-    height: 500px;
+    height: 300px;
 }
 
 #list{
@@ -81,6 +119,17 @@ th{
 tr:nth-child(odd) {
     background-color: #93e0e5 ;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
